@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+}
+
+button {
+    font-size: 1rem;
+    background-color: rgb(43, 167, 99);
+    border: 2px black solid;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contenedorCards {
+    border: 2px black solid;
+}

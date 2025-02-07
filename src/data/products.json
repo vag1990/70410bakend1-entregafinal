@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "title": "Martillo de carpintero",
+      "description": "Martillo con mango de madera y cabeza de acero forjado.",
+      "code": "MART01",
+      "price": 1200,
+      "status": true,
+      "stock": 50,
+      "category": "Herramientas manuales",
+      "thumbnails": ["/images/martillo1.jpg", "/images/martillo2.jpg"]
+    },
+    {
+      "id": 2,
+      "title": "Destornillador plano",
+      "description": "Destornillador con punta magnética y mango ergonómico.",
+      "code": "DEST01",
+      "price": 300,
+      "status": true,
+      "stock": 100,
+      "category": "Herramientas manuales",
+      "thumbnails": ["/images/destornillador1.jpg"]
+    },
+    {
+      "id": 3,
+      "title": "Taladro percutor",
+      "description": "Taladro percutor eléctrico de 650W con velocidad variable.",
+      "code": "TALD01",
+      "price": 8500,
+      "status": true,
+      "stock": 30,
+      "category": "Herramientas eléctricas",
+      "thumbnails": ["/images/taladro1.jpg"]
+    },
+    {
+      "id": 4,
+      "title": "Llave ajustable",
+      "description": "Llave ajustable de 12 pulgadas de acero inoxidable.",
+      "code": "LLAVE01",
+      "price": 950,
+      "status": true,
+      "stock": 40,
+      "category": "Herramientas manuales",
+      "thumbnails": []
+    },
+    {
+      "id": 5,
+      "title": "Caja de tornillos variados",
+      "description": "Caja con surtido de tornillos de diferentes tamaños.",
+      "code": "TORN01",
+      "price": 750,
+      "status": true,
+      "stock": 25,
+      "category": "Tornillería",
+      "thumbnails": ["/images/tornillos1.jpg"]
+    },
+    {
+      "id": 6,
+      "title": "Cinta métrica",
+      "description": "Cinta métrica de 5 metros con mecanismo retráctil.",
+      "code": "CINTA01",
+      "price": 450,
+      "status": true,
+      "stock": 60,
+      "category": "Medición",
+      "thumbnails": ["/images/cinta1.jpg"]
+    },
+    {
+      "id": 7,
+      "title": "Sierra manual",
+      "description": "Sierra manual para madera con hoja de 18 pulgadas.",
+      "code": "SIERRA01",
+      "price": 1100,
+      "status": true,
+      "stock": 35,
+      "category": "Herramientas manuales",
+      "thumbnails": ["/images/sierra1.jpg"]
+    },
+    {
+      "id": 8,
+      "title": "Nivel de burbuja",
+      "description": "Nivel de burbuja de 40 cm para medición de superficies.",
+      "code": "NIVEL01",
+      "price": 500,
+      "status": true,
+      "stock": 80,
+      "category": "Medición",
+      "thumbnails": []
+    },
+    {
+      "id": 9,
+      "title": "Guantes de trabajo",
+      "description": "Guantes resistentes para trabajo pesado.",
+      "code": "GUANTE01",
+      "price": 350,
+      "status": true,
+      "stock": 100,
+      "category": "Seguridad",
+      "thumbnails": ["/images/guantes1.jpg"]
+    },
+    {
+      "id": 10,
+      "title": "Amoladora angular",
+      "description": "Amoladora angular de 850W con disco de corte de 115 mm.",
+      "code": "AMOL01",
+      "price": 9200,
+      "status": true,
+      "stock": 20,
+      "category": "Herramientas eléctricas",
+      "thumbnails": ["/images/amoladora1.jpg"]
+    },
+    {
+      "id": 11,
+      "title": "Llave de impacto",
+      "description": "Llave de impacto neumática para uso profesional.",
+      "code": "IMPACT01",
+      "price": 14500,
+      "status": true,
+      "stock": 15,
+      "category": "Herramientas neumáticas",
+      "thumbnails": []
+    },
+    {
+      "id": 12,
+      "title": "Brocas para concreto",
+      "description": "Juego de brocas de tungsteno para perforar concreto.",
+      "code": "BROCAS01",
+      "price": 1250,
+      "status": true,
+      "stock": 50,
+      "category": "Accesorios",
+      "thumbnails": ["/images/brocas1.jpg"]
+    },
+    {
+      "id": 13,
+      "title": "Cerradura de seguridad",
+      "description": "Cerradura de seguridad con llave y doble cerrojo.",
+      "code": "CERRA01",
+      "price": 3200,
+      "status": true,
+      "stock": 40,
+      "category": "Seguridad",
+      "thumbnails": ["/images/cerradura1.jpg"]
+    },
+    {
+      "id": 14,
+      "title": "Alicate de presión",
+      "description": "Alicate de presión de acero de alta resistencia.",
+      "code": "ALIC01",
+      "price": 870,
+      "status": true,
+      "stock": 50,
+      "category": "Herramientas manuales",
+      "thumbnails": []
+    },
+    {
+      "id": 15,
+      "title": "Pistola de silicona",
+      "description": "Pistola aplicadora para cartuchos de silicona.",
+      "code": "SILI01",
+      "price": 600,
+      "status": true,
+      "stock": 70,
+      "category": "Accesorios",
+      "thumbnails": ["/images/silicona1.jpg"]
+    },
+    {
+      "id": 16,
+      "title": "Soldadora inverter",
+      "description": "Soldadora inverter portátil de 120A.",
+      "code": "SOLD01",
+      "price": 18500,
+      "status": true,
+      "stock": 10,
+      "category": "Herramientas eléctricas",
+      "thumbnails": ["/images/soldadora1.jpg"]
+    },
+    {
+      "id": 17,
+      "title": "Cortador de cerámica",
+      "description": "Cortador manual para cerámica con riel de precisión.",
+      "code": "CERAM01",
+      "price": 4500,
+      "status": true,
+      "stock": 25,
+      "category": "Herramientas manuales",
+      "thumbnails": []
+    },
+    {
+      "id": 18,
+      "title": "Cizalla manual",
+      "description": "Cizalla manual para cortar láminas de metal.",
+      "code": "CIZAL01",
+      "price": 3750,
+      "status": true,
+      "stock": 15,
+      "category": "Herramientas manuales",
+      "thumbnails": ["/images/cizalla1.jpg"]
+    },
+    {
+      "id": 19,
+      "title": "Compresor de aire",
+      "description": "Compresor de aire portátil de 24 litros.",
+      "code": "COMP01",
+      "price": 25000,
+      "status": true,
+      "stock": 8,
+      "category": "Herramientas neumáticas",
+      "thumbnails": ["/images/compresor1.jpg"]
+    },
+    {
+      "id": 20,
+      "title": "Carretilla metálica",
+      "description": "Carretilla metálica con capacidad de 80 litros.",
+      "code": "CARR01",
+      "price": 8700,
+      "status": true,
+      "stock": 12,
+      "category": "Accesorios",
+      "thumbnails": ["/images/carretilla1.jpg"]
+    }
+  ]
+  
