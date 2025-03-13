@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
- 
-//pegar link de mongodb
-.then (() => console.log("Conectados con exito!!"));
-.catch ((error) => console.log("Tenemos un error.", error));
+
+mongoose.connect("mongodb+srv://atlasvag:atlasvagatlas@cluster0.nwn5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .then(() => console.log("Conectados con éxito!!"))
+  .catch(err => console.error("Error de conexión:", err));

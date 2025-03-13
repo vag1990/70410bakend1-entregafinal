@@ -5,7 +5,7 @@ import CartModel from "../models/cart.model.js";
 const router = express.Router();
 const cartManager = new CartManager();
 
-// 1) Creamos un nuevo carrito:
+//crear carrito
 router.post("/", async (req, res) => {
     try {
         const nuevoCarrito = await cartManager.crearCarrito();
@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
     }
 });
 
-// 2) Listamos los productos que pertenecen a determinado carrito.
+//productos de determinado carrito
 router.get("/:cid", async (req, res) => {
     const cartId = req.params.cid;
 
@@ -35,7 +35,7 @@ router.get("/:cid", async (req, res) => {
     }
 });
 
-// 3) Agregar productos a distintos carritos.
+//agregar productos a carritos
 router.post("/:cid/product/:pid", async (req, res) => {
     const cartId = req.params.cid;
     const productId = req.params.pid;
@@ -51,7 +51,7 @@ router.post("/:cid/product/:pid", async (req, res) => {
     }
 });
 
-// 4) Eliminamos un producto específico del carrito.
+// eliminar producto por id de carrito
 router.delete('/:cid/product/:pid', async (req, res) => {
     try {
         const cartId = req.params.cid;
@@ -73,7 +73,7 @@ router.delete('/:cid/product/:pid', async (req, res) => {
     }
 });
 
-// 5) Actualizamos productos del carrito:
+//actualizamos los productos del carrito
 router.put('/:cid', async (req, res) => {
     const cartId = req.params.cid;
     const updatedProducts = req.body;
@@ -90,7 +90,7 @@ router.put('/:cid', async (req, res) => {
     }
 });
 
-// 6) Actualizamos las cantidades de productos
+//actualizamos cantidades
 router.put('/:cid/product/:pid', async (req, res) => {
     try {
         const cartId = req.params.cid;
@@ -113,7 +113,7 @@ router.put('/:cid/product/:pid', async (req, res) => {
     }
 });
 
-// 7) Vaciamos el carrito:
+//vaciar carrito
 router.delete('/:cid', async (req, res) => {
     try {
         const cartId = req.params.cid;

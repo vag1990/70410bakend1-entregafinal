@@ -1,10 +1,11 @@
 import express from "express";
-import ProductManager from "../managers/product-manager-db.js";
+import ProductManager from '../managers/product-manager-db.js';
+
 
 const router = express.Router();
 const productManager = new ProductManager();
 
-// Modificación 2 entrega:
+
 router.get("/", async (req, res) => {
     try {
         const { limit = 10, page = 1, sort, query } = req.query;
@@ -38,7 +39,7 @@ router.get("/", async (req, res) => {
     }
 });
 
-// 2) Traer solo un producto por id:
+// producto por id
 router.get("/:pid", async (req, res) => {
     const id = req.params.pid;
 
@@ -59,7 +60,7 @@ router.get("/:pid", async (req, res) => {
     }
 });
 
-// 3) Agregar nuevo producto:
+//sumar producto
 router.post("/", async (req, res) => {
     const nuevoProducto = req.body;
 
@@ -76,7 +77,7 @@ router.post("/", async (req, res) => {
     }
 });
 
-// 4) Actualizar por ID
+//actualizar producto por id
 router.put("/:pid", async (req, res) => {
     const id = req.params.pid;
     const productoActualizado = req.body;
@@ -94,7 +95,7 @@ router.put("/:pid", async (req, res) => {
     }
 });
 
-// 5) Eliminar producto:
+//eliminar producto
 router.delete("/:pid", async (req, res) => {
     const id = req.params.pid;
 
