@@ -1,18 +1,24 @@
-/* Estilos generales */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ff0000; /* Fondo claro */
-    color: #333; /* Texto oscuro */
+    background-color: #ffffff; 
+    color: #333; 
     margin: 0;
     padding: 0;
 }
 
-/* Cabecera */
+/*HEADER*/
+.imgLogo {
+    height: 80px;
+    width: auto;
+}
+
 h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #f1a800; /* Color amarillo Marolio */
+    text-align: left;
+    font-size: 5rem;
+    color: black; 
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* Contenedor de productos */

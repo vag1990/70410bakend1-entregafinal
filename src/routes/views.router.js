@@ -51,7 +51,7 @@ router.get("/carts/:cid", async (req, res) => {
 
       const productosEnCarrito = carrito.products.map(item => ({
          product: item.product.toObject(),
-         //Lo convertimos a objeto para pasar las restricciones de Exp Handlebars. 
+         
          quantity: item.quantity
       }));
 
