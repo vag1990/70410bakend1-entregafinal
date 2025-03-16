@@ -5,6 +5,8 @@ body {
     color: #333; 
     margin: 0;
     padding: 0;
+    background-image: url("../img/imgMain.jpg");
+    
 }
 
 /*HEADER*/
@@ -100,4 +102,11 @@ p {
 .pagination {
     text-align: center;
     margin-top: 20px;
+}
+
+.itemsCarrito {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    border: 2px black solid;
+    background-color: green;
 }
