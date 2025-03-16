@@ -1,112 +1,125 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff; 
-    color: #333; 
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4; 
+    color: #444; 
     margin: 0;
     padding: 0;
     background-image: url("../img/imgMain.jpg");
-    
+    background-size: cover;
+    background-position: center;
 }
 
 /*HEADER*/
 .imgLogo {
-    height: 80px;
+    height: 100px;
     width: auto;
+    margin-left: 20px;
 }
 
 h1 {
     text-align: left;
-    font-size: 5rem;
-    color: black; 
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: 4.5rem;
+    color: white; 
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 /* Contenedor de productos */
 .products-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Alinea los productos en fila y los distribuye */
-    gap: 20px; /* Espacio entre los productos */
-    margin-top: 20px;
-    padding: 0 15px;
+    justify-content: center; /* Centra los productos */
+    gap: 25px; /* Espacio entre los productos */
+    margin-top: 30px;
+    padding: 0 20px;
 }
 
 /* Estilos de los productos */
 div.product {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 25px;
     text-align: center;
-    max-width: 300px; /* Limita el ancho de cada producto */
-    flex: 1 1 300px; /* Hace que los productos se adapten al espacio disponible */
+    max-width: 320px; /* Limita el ancho de cada producto */
+    flex: 1 1 320px; /* Hace que los productos se adapten al espacio disponible */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 div.product:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* Títulos de productos */
 h2 {
-    color: #d30000; /* Rojo Marolio */
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    color: #e74c3c; /* Rojo más vibrante */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Verdana', sans-serif;
 }
 
 /* Descripción y precio */
 p {
-    font-size: 1rem;
-    margin: 10px 0;
+    font-size: 1.1rem;
+    margin: 15px 0;
+    color: #555;
 }
 
 /* Botón de agregar al carrito */
 button {
-    background-color: #f1a800; /* Amarillo Marolio */
+    background-color: #3498db; /* Azul */
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #d98c00; /* Amarillo más oscuro en hover */
+    background-color: #2980b9; /* Azul más oscuro en hover */
 }
 
 /* Paginación */
 a {
-    color: #d30000; /* Rojo Marolio */
+    color: #e74c3c; /* Rojo más vibrante */
     text-decoration: none;
-    font-size: 1.2rem;
-    margin: 10px;
+    font-size: 1.3rem;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #c0392b; /* Rojo más oscuro en hover */
 }
 
 /* Estilos de paginación */
 p {
     text-align: center;
-    font-size: 1.1rem;
-    color: #333;
+    font-size: 1.2rem;
+    color: #444;
 }
 
 /* Estilos de la paginación al pie de la página */
 .pagination {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .itemsCarrito {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    border: 2px black solid;
-    background-color: green;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
 }

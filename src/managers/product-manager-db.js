@@ -13,7 +13,7 @@ class ProductManager {
             const existeProducto = await ProductModel.findOne({ code: code });
 
             if (existeProducto) {
-                console.log("El código debe ser único, malditooo!!!");
+                console.log("El código debe ser único.");
                 return;
             }
 
@@ -92,7 +92,7 @@ class ProductManager {
                 return null;
             }
 
-            console.log("Producto encontrado!! Claro que siiiiii");
+            console.log("Producto encontrado");
             return producto;
         } catch (error) {
             console.log("Error al traer un producto por id");
@@ -109,7 +109,7 @@ class ProductManager {
                 return null;
             }
 
-            console.log("Producto actualizado con exito, como todo en mi vidaa!");
+            console.log("Producto actualizado con exito");
             return updateado;
         } catch (error) {
             console.log("Error al actualizar el producto", error);
@@ -123,7 +123,7 @@ class ProductManager {
             const deleteado = await ProductModel.findByIdAndDelete(id);
 
             if (!deleteado) {
-                console.log("No se encuentraaaa, busca bien!");
+                console.log("No se encuentra");
                 return null;
             }
 
